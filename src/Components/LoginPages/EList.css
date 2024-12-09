@@ -1,0 +1,58 @@
+.head-2{
+    color:rgb(71, 164, 246);
+    margin-top: 10px;
+}
+
+.head-2 p:nth-child(1){
+    margin: 0px;
+    width: 200px;
+    height: 2px;
+    background-color:rgb(71, 164, 246);
+    border-radius: 20px;
+}
+
+.head-2 p:nth-child(2){
+    margin-top: 2px;
+    width: 220px;
+    height: 2px;
+    background-color:rgb(71, 164, 246);
+    border-radius: 20px;
+}
+
+.list-table{
+    border: 1px solid rgb(71, 164, 246);
+    border-radius: 20px;
+    width: 1300px;
+}
+
+.list-table thead{
+    border: 1px solid rgb(71, 164, 246);
+    background-color: rgb(71, 164, 246);
+    color: #ffffff;
+    height: 50px;
+}
+
+.list-table th{
+    padding: 5px;
+}
+
+.list-table tbody td{
+    padding: 3px;
+    height: 40px;
+    border: 1px solid rgb(71, 164, 246);
+}
+
+.list-table tbody td .fa-eye{
+    color: rgb(71, 164, 246);
+    cursor: pointer;
+}
+
+.list-table tbody td .fa-pencil{
+    color: rgb(23, 212, 20);
+    cursor: pointer;
+}
+
+.list-table tbody td .fa-trash{
+    color: rgb(248, 64, 64);
+    cursor: pointer;
+}

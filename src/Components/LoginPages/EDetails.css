@@ -1,0 +1,270 @@
+.head-4{
+    color:rgb(71, 164, 246);
+    margin-top: 10px;
+}
+
+.head-4 p:nth-child(1){
+    margin: 0px;
+    width: 240px;
+    height: 2px;
+    background-color:rgb(71, 164, 246);
+    border-radius: 20px;
+}
+
+.head-4 p:nth-child(2){
+    margin-top: 2px;
+    width: 260px;
+    height: 2px;
+    background-color:rgb(71, 164, 246);
+    border-radius: 20px;
+}
+
+.e-card{
+    width: 1200px;
+    height: 1400px;
+    margin: 50px auto;
+    border: 1px solid rgb(71, 164, 246);
+    border-radius: 10px;
+    background-image: linear-gradient(150deg, rgba(71, 164, 246, 0.621) , rgb(255, 255, 255));
+    overflow: hidden;
+    /* background-image: linear-gradient(to top left, rgb(71, 164, 246) -20%, rgb(255, 255, 255) 100%); */
+    /* background-image: radial-gradient(#090, #fff, #2a4f32); */
+    /* background: linear-gradient(90deg,rgba(71, 164, 246, 0.692) 0%, rgb(255, 255, 255) 100%); */
+}
+
+.card-head{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.basic-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image .e-img{
+    width: 150px;
+    height: 150px;
+    color: rgb(167, 164, 164);
+    /* margin-top: 20px; */
+    /* margin: 0px 50px 10px auto; */
+    /* text-align: left; */
+}
+
+.card-tittle{
+    width: 850px;
+    margin-top: 30px;
+}
+
+.card-tittle div .labels p{
+    text-align: left;
+    width: 120px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.card-tittle div .inputs p{
+    text-align: left;
+    width: 300px;
+    padding: 1px;
+    /* font-size: 16px; */
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 7px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}
+
+.colon{
+    font-weight: 600;
+    color: rgb(71, 164, 246);
+}
+
+.register-no{
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 50px;
+    padding: 5px;
+    width: 220px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.divider-line{
+    width: 1000px;
+    height: 1px;
+    background-color: rgb(71, 164, 246);
+    margin: 30px auto;
+}
+
+.container-head h5{
+    width: 200px;
+    margin: 0px 0px 30px 20px;
+    padding: 4px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    text-align: center;
+}
+
+.address-info, .education-info, .document-info, .bank-info, .register-info{
+    display: grid;
+}
+
+ .address-info div .labels p{
+    text-align: left;
+    width: 150px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.address-info div .inputs p{
+    text-align: left;
+    width: 300px;
+    padding: 2px;
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 6px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}
+
+.education-info  .labels p{
+    text-align: left;
+    width: 130px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+.education-info  .edu-labels{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* justify-content: center; */
+    text-align: center !important;
+    width: 100px !important;
+    padding: 0px !important;
+    font-size: medium !important;
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff !important;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.education-info  .inputs p{
+    text-align: left;
+    width: 150px;
+    padding: 2px;
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 6px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}
+
+.document-info .labels, .document-info .inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.document-info .labels p{
+    width: 150px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.document-info .inputs p{
+    text-align: left;
+    width: 150px;
+    padding: 2px;
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 7px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}
+
+.bank-info .labels p{
+    text-align: left;
+    width: 180px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.bank-info .inputs p{
+    text-align: left;
+    width: 150px;
+    padding: 2px;
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 7px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}
+
+ .register-info div .labels p{
+    text-align: left;
+    width: 150px;
+    padding-left: 5px;
+    /* font-size: large; */
+    font-weight: 500;
+    margin: 0px 5px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(71, 164, 246);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.register-info div .inputs p{
+    text-align: left;
+    width: 300px;
+    padding: 2px;
+    font-size: medium;
+    /* font-weight: 500; */
+    margin: 0px 0px 6px 0px;
+    color: rgb(71, 164, 246);
+    /* color: #ffffff; */
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+}

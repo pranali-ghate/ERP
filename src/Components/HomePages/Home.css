@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(71, 164, 246);
+    color: #ffffff;
+}
+
+.nav-link .nav-li{
+    text-decoration: none;
+    margin: 5px 20px;
+    padding: 2px 10px;
+    color: #ffffff;
+}
+
+.nav-link .active{
+    background-color: #ffffff;
+    color: rgb(71, 164, 246);
+    border-radius: 10px;
+}
+
+.nav-link .fa-grip-lines-vertical{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.details{
+    width: 50%;
+    color: rgb(7, 98, 163);
+    margin-top: 4%;
+    font-size: large;
+}
+
+.form-card{
+    margin: 4% 2% 2% 2%;
+    width: 450px;
+    height: 450px;
+    /* background-color: rgb(71, 164, 246); */
+    background-image: linear-gradient(to bottom right, rgb(71, 164, 246) -20%, rgb(255, 255, 255) 100%);
+}
